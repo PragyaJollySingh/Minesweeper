@@ -30,6 +30,7 @@ public class Controller {
 		if(number==1) {
 			name= Integer.toString(number);
 			source.setText(name);
+			source.setEnabled(false);
 			won();	
 			
 		}
@@ -40,6 +41,7 @@ public class Controller {
 		else if(number==0){
 			name= Integer.toString(number);
 			source.setText(name);
+			source.setEnabled(false);
 			won();
 		}
 		
